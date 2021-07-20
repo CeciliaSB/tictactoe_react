@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.turn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: rgb(146, 146, 146);
+}
+
+.row {
+    display: flex;
+}
+
+.startOver {
+    width: 88px;
+    height: 28px;
+    align-self: center;
+    font-size: 13px;
+    background: transparent;
+    border-color:rebeccapurple;
+    color: rebeccapurple;
+    text-shadow: 0 0 10px rgba(168, 11, 189, 0.938);
+    border-radius: 18px;
+    font-family: 'Permanent Marker', cursive; 
+    text-align: justify;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.startOver:hover {
+    color: rgb(140, 8, 173);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.title {
+    margin-top: 10px;
+}
